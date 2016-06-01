@@ -2,16 +2,13 @@ The Versioneer
 ==============
 
 * like a rocketeer, but for versions!
-* https://github.com/warner/python-versioneer
+* https://github.com/marcelhuberfoo/python-versioneer
 * Brian Warner
 * License: Public Domain
 * Compatible With: python2.6, 2.7, 3.3, 3.4, 3.5, and pypy
-* [![Latest Version]
-(https://pypip.in/version/versioneer/badge.svg?style=flat)
-](https://pypi.python.org/pypi/versioneer/)
 * [![Build Status]
-(https://travis-ci.org/warner/python-versioneer.png?branch=master)
-](https://travis-ci.org/warner/python-versioneer)
+(https://travis-ci.org/marcelhuberfoo/python-versioneer.svg?branch=master)
+](https://travis-ci.org/marcelhuberfoo/python-versioneer)
 
 This is a tool for managing a recorded version number in distutils-based
 python projects. The goal is to remove the tedious and error-prone "update
@@ -107,6 +104,8 @@ information:
 * `['dirty']`: a boolean, True if the tree has uncommitted changes. Note that
   this is only accurate if run in a VCS checkout, otherwise it is likely to
   be False or None
+
+* `['date']`: Date and time of the latest commit.
 
 * `['error']`: if the version string could not be computed, this will be set
   to a string describing the problem, otherwise it will be None. It may be
